@@ -736,7 +736,8 @@
                 }
             }, { passive: false });
 
-            zoomBtn.value = IDRViewer.ZOOM_AUTO;
+            // zoomBtn.value = IDRViewer.ZOOM_AUTO;
+            zoomBtn.value = IDRViewer.ZOOM_FITWIDTH;
 
             IDRViewer.on('zoomchange', handleZoomUpdate);
         });
